@@ -103,3 +103,17 @@ class Queues {
 
 };
 
+int main() {
+    Queues q;
+    char ch;
+
+    while (true) {
+        try {
+            cout << "Menu" << endl;
+            cout << "1. Implement Insert operation" << endl;
+            cout << "2. Implement Delete operation" << endl;
+            cout << "3. Display values" << endl;
+        }
+    }
+}
+
