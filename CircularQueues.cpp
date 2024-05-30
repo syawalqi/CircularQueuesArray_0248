@@ -17,6 +17,12 @@ class Queues {
         int num;
         cout << "Enter a number:";
         cin >> num;
+        cout << endl;
+
+        if (FRONT == -1) {
+            FRONT = 0;
+            REAR = 0;
+        }
     }
 
-}
+};
