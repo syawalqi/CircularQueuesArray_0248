@@ -7,4 +7,6 @@ class Queues {
     int FRONT, REAR;
     int queue_array[max];
 
+    public:
+
 }
